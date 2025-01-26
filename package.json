@@ -1,0 +1,35 @@
+{
+  "name": "social_media_task_assignment",
+  "version": "1.0.0",
+  "description": "assignment for w3 hiring",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RiyazN0921/3W_hiring_BE.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "MongoDb",
+    "Javascript"
+  ],
+  "author": "Riyaz Nadaf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RiyazN0921/3W_hiring_BE/issues"
+  },
+  "homepage": "https://github.com/RiyazN0921/3W_hiring_BE#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.735.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "multer": "^1.4.5-lts.1"
+  }
+}
